@@ -237,259 +237,134 @@ version = 0.8.5
 [GNS3-DATA]
     configs = configs
     [[NOTE 1]]
-        text = "RADIUS:\nKEY: isec"
-        x = -79.0
-        y = 321.0
+        text = ".1"
+        x = 91.0
+        y = -304.0
     [[NOTE 2]]
-        text = ".2"
-        x = 347.0
-        y = -307.0
-    [[NOTE 3]]
-        text = "192.168.200.2"
-        x = -180.0
-        y = 462.0
-        color = "#ff0000"
-    [[NOTE 4]]
-        text = "193.136.1.0/30\n"
-        x = -351.0
-        y = -302.0
-        color = "#ff0000"
-    [[NOTE 5]]
-        text = ".2"
-        x = -634.0
-        y = -381.0
-    [[NOTE 6]]
-        text = "192.168.101.0/30"
-        x = -585.0
-        y = -84.0
-        color = "#ff0000"
-    [[NOTE 7]]
-        text = ".1"
-        x = -187.0
-        y = -316.0
-    [[NOTE 8]]
-        text = ".5"
-        x = -167.0
-        y = 188.0
-    [[NOTE 9]]
-        text = ".1"
-        x = -451.0
-        y = -123.0
-    [[NOTE 10]]
-        text = ".254"
-        x = -178.0
-        y = 270.0
-    [[NOTE 11]]
-        text = "193.137.2.0/30"
-        x = -355.0
-        y = -214.0
-        color = "#ff0000"
-    [[NOTE 12]]
-        text = "192.168.100.0/30"
-        x = -576.0
-        y = -334.0
-        color = "#ff0000"
-    [[NOTE 13]]
-        text = ".4"
-        x = 130.0
-        y = 209.0
-    [[NOTE 14]]
-        text = ".1"
-        x = -449.0
-        y = -374.0
-    [[NOTE 15]]
-        text = "193.136.5.0/30"
-        x = -132.0
-        y = -177.0
-        color = "#ff0000"
-    [[NOTE 16]]
-        text = "193.137.2.0/30"
-        x = 235.0
-        y = -312.0
-        color = "#ff0000"
-    [[NOTE 17]]
-        text = ".6"
-        x = -127.0
-        y = -29.0
-    [[NOTE 18]]
-        text = ".2/30"
-        x = -359.0
-        y = -92.0
-    [[NOTE 19]]
-        text = ".2"
-        x = -354.0
-        y = -369.0
-    [[NOTE 20]]
-        text = ".2"
-        x = -96.0
-        y = -305.0
-    [[NOTE 21]]
-        text = ".1"
-        x = -178.0
-        y = -238.0
-    [[NOTE 22]]
         text = "193.137.1.0/30"
         x = -39.0
         y = -318.0
         color = "#ff0000"
-    [[NOTE 23]]
+    [[NOTE 3]]
         text = ".3"
         x = 129.0
         y = 115.0
-    [[NOTE 24]]
+    [[NOTE 4]]
+        text = ".2"
+        x = -96.0
+        y = -305.0
+    [[NOTE 5]]
+        text = ".1"
+        x = -178.0
+        y = -238.0
+    [[NOTE 6]]
+        text = ".1"
+        x = -128.0
+        y = -253.0
+    [[NOTE 7]]
+        text = ".2"
+        x = 120.0
+        y = 8.0
+    [[NOTE 8]]
         text = ".1"
         x = 197.0
         y = -308.0
-    [[NOTE 25]]
+    [[NOTE 9]]
         text = "193.136.6.0/29"
         x = -314.0
         y = 82.0
         color = "#ff0000"
-    [[NOTE 26]]
+    [[NOTE 10]]
         text = ".1"
-        x = -128.0
-        y = -253.0
+        x = -451.0
+        y = -123.0
+    [[NOTE 11]]
+        text = ".5"
+        x = -167.0
+        y = 188.0
+    [[NOTE 12]]
+        text = ".2"
+        x = -634.0
+        y = -381.0
+    [[NOTE 13]]
+        text = "193.136.1.0/30\n"
+        x = -351.0
+        y = -302.0
+        color = "#ff0000"
+    [[NOTE 14]]
+        text = ".1"
+        x = -187.0
+        y = -316.0
+    [[NOTE 15]]
+        text = "192.168.101.0/30"
+        x = -585.0
+        y = -84.0
+        color = "#ff0000"
+    [[NOTE 16]]
+        text = "RADIUS:\nKEY: isec"
+        x = -79.0
+        y = 321.0
+    [[NOTE 17]]
+        text = "192.168.200.2"
+        x = -180.0
+        y = 462.0
+        color = "#ff0000"
+    [[NOTE 18]]
+        text = ".2"
+        x = 347.0
+        y = -307.0
+    [[NOTE 19]]
+        text = ".6"
+        x = -127.0
+        y = -29.0
+    [[NOTE 20]]
+        text = "193.137.2.0/30"
+        x = 235.0
+        y = -312.0
+        color = "#ff0000"
+    [[NOTE 21]]
+        text = "193.136.5.0/30"
+        x = -132.0
+        y = -177.0
+        color = "#ff0000"
+    [[NOTE 22]]
+        text = ".1"
+        x = -449.0
+        y = -374.0
+    [[NOTE 23]]
+        text = ".4"
+        x = 130.0
+        y = 209.0
+    [[NOTE 24]]
+        text = "192.168.100.0/30"
+        x = -576.0
+        y = -334.0
+        color = "#ff0000"
+    [[NOTE 25]]
+        text = "193.137.2.0/30"
+        x = -355.0
+        y = -214.0
+        color = "#ff0000"
+    [[NOTE 26]]
+        text = ".254"
+        x = -178.0
+        y = 270.0
     [[NOTE 27]]
         text = ".2"
-        x = 120.0
-        y = 8.0
+        x = -354.0
+        y = -369.0
     [[NOTE 28]]
         text = ".2"
         x = -133.0
         y = -108.0
     [[NOTE 29]]
-        text = ".1"
-        x = 91.0
-        y = -304.0
+        text = ".2/30"
+        x = -359.0
+        y = -92.0
     [[NOTE 30]]
         text = ".2"
         x = -638.0
         y = -127.0
-    [[NOTE 31]]
-        text = "3"
-        x = 75.1416432573
-        y = 21.3422953741
-        interface = SW1 3
-    [[NOTE 32]]
-        text = "1"
-        x = 35.889267223
-        y = 55.998105843
-        interface = SW1 1
-    [[NOTE 33]]
-        text = "4"
-        x = 73.4941585439
-        y = 3.4922457436
-        interface = SW1 4
-    [[NOTE 34]]
-        text = "2"
-        x = 70.4979701709
-        y = 35.3685849746
-        interface = SW1 2
-    [[NOTE 35]]
-        text = "5"
-        x = 35.7637475942
-        y = -23.9991304556
-        interface = SW1 5
-    [[NOTE 36]]
-        text = "f0/0"
-        x = -6.64164325727
-        y = 16.6577046259
-        interface = HTTP f0/0
-    [[NOTE 37]]
-        text = "f0/1"
-        x = 33.7357943888
-        y = 61.9932320101
-        interface = Deepzone f0/1
-    [[NOTE 38]]
-        text = "f0/0"
-        x = 32.610732777
-        y = -17.998105843
-        interface = Deepzone f0/0
-    [[NOTE 39]]
-        text = "f0/0"
-        x = -4.99415854393
-        y = 34.5077542564
-        interface = DNS f0/0
-    [[NOTE 40]]
-        text = "f0/0"
-        x = -1.9979701709
-        y = 2.63141502544
-        interface = SSH f0/0
-    [[NOTE 41]]
-        text = "f0/1"
-        x = 32.7362524058
-        y = 61.9991304556
-        interface = Core-servicos f0/1
-    [[NOTE 42]]
-        text = "f0/0"
-        x = 32.9684588181
-        y = -17.9999875644
-        interface = Core-servicos f0/0
-    [[NOTE 43]]
-        text = "f0/1"
-        x = 72.9983465228
-        y = 22.3636969112
-        interface = ISP f0/1
-    [[NOTE 44]]
-        text = "f0/0"
-        x = -6.99995728474
-        y = 21.9415430152
-        interface = ISP f0/0
-    [[NOTE 45]]
-        text = "f0/0"
-        x = -6.99834652278
-        y = 21.6363030888
-        interface = Malorie f0/0
-    [[NOTE 46]]
-        text = "e1/0"
-        x = 33.0315411819
-        y = 61.9999875644
-        interface = WAN e1/0
-    [[NOTE 47]]
-        text = "f0/0"
-        x = 72.9999572847
-        y = 22.0584569848
-        interface = WAN f0/0
-    [[NOTE 48]]
-        text = "e1/2"
-        x = -0.039985618861
-        y = 44.5468257257
-        interface = WAN e1/2
-    [[NOTE 49]]
-        text = "e1/1"
-        x = -5.65592535405
-        y = 11.7180043269
-        interface = WAN e1/1
-    [[NOTE 50]]
-        text = "f0/0"
-        x = 72.9998307567
-        y = 22.11635909
-        interface = Externo1 f0/0
-    [[NOTE 51]]
-        text = "f0/1"
-        x = -6.99983075667
-        y = 21.88364091
-        interface = Externos f0/1
-    [[NOTE 52]]
-        text = "f0/0"
-        x = 66.0399856189
-        y = -0.546825725708
-        interface = Externos f0/0
-    [[NOTE 53]]
-        text = "f0/0"
-        x = 72.9996198536
-        y = 22.174389131
-        interface = Docente1 f0/0
-    [[NOTE 54]]
-        text = "f0/1"
-        x = -6.99961985358
-        y = 21.825610869
-        interface = Docentes f0/1
-    [[NOTE 55]]
-        text = "f0/0"
-        x = 71.655925354
-        y = 32.2819956731
-        interface = Docentes f0/0
     [[Cloud SoftLoopBack]]
         symbol = Host
         x = -162.659379566
