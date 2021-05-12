@@ -1,0 +1,411 @@
+RITE-profile                    Router IP traffic export profile command mode
+  RMI-Node-Config                 Resource Policy Node Config mode
+  RMI-Resource-Group              Resource Group Config mode
+  RMI-Resource-Manager            Resource Manager Config mode
+  RMI-Resource-Policy             Resource Policy Config mode
+  SASL-profile                    SASL profile configuration mode
+  aaa-attr-list                   AAA attribute list config mode
+  aaa-user                        AAA user definition
+  accept-dialin                   VPDN group accept dialin configuration mode
+  accept-dialout                  VPDN group accept dialout configuration mode
+  acct_mlist                      AAA accounting methodlist definitions
+  address-family                  Address Family configuration mode
+  archive                         Archive the router configuration mode
+  atm-l2trans-pvc-config          ATM L2transport PVC configuration mode
+  atm-l2trans-pvp-config          ATM L2transport PVP configuration mode
+  atm-pvc-range-config            ATM PVC Range configuration mode
+  atm-range-pvc-config            ATM PVC in Range configuration mode
+  atm-vc-config                   ATM virtual circuit configuration mode
+  auto-ip-sla-mpls                Auto IP SLA MPLS LSP Monitor configs
+  auto-ip-sla-mpls-lpd-params     Auto IP SLA MPLS LPD params configs
+  auto-ip-sla-mpls-params         Auto IP SLA MPLS LSP Monitor Params configs
+  bba-group                       BBA Group configuration mode
+  bgp address-family              Address Family configuration mode
+
+Deepzone(config-view)#commands exec exl
+Deepzone(config-view)#commands exec excl
+Deepzone(config-view)#commands exec exclude shutdown
+% Unrecognized () command 'shutdown'
+
+Deepzone(config-view)#commands interface exclude shut
+Deepzone(config-view)#commands interface exclude shut
+Deepzone(config-view)#commands interface exclude shut
+Deepzone(config-view)#commands interface exclude shut
+Deepzone(config-view)#commands interface exclude shut
+Deepzone(config-view)#commands interface exclude shut
+Deepzone(config-view)#commands interface exclude shut
+Deepzone(config-view)#commands interface exclude shut
+Deepzone(config-view)#command
+Deepzone(config-view)#command
+Deepzone(config-view)#?
+View commands:
+  commands  Configure commands for a view
+  default   Set a command to its defaults
+  exit      Exit from view configuration mode
+  no        Negate a command or set its defaults
+  secret    Set a secret for the current view
+
+Deepzone(config-view)#comman
+Deepzone(config-view)#commands ex
+Deepzone(config-view)#commands ex
+Deepzone(config-view)#commands ex
+Deepzone(config-view)#commands ex
+Deepzone(config-view)#commands excl
+Deepzone(config-view)#commands exclude
+Deepzone(config-view)#commands exclude
+Deepzone(config-view)#commands exclude
+Deepzone(config-view)#commands ?
+  RITE-profile                    Router IP traffic export profile command mode
+  RMI-Node-Config                 Resource Policy Node Config mode
+  RMI-Resource-Group              Resource Group Config mode
+  RMI-Resource-Manager            Resource Manager Config mode
+  RMI-Resource-Policy             Resource Policy Config mode
+  SASL-profile                    SASL profile configuration mode
+  aaa-attr-list                   AAA attribute list config mode
+  aaa-user                        AAA user definition
+  accept-dialin                   VPDN group accept dialin configuration mode
+  accept-dialout                  VPDN group accept dialout configuration mode
+  acct_mlist                      AAA accounting methodlist definitions
+  address-family                  Address Family configuration mode
+  archive                         Archive the router configuration mode
+  atm-l2trans-pvc-config          ATM L2transport PVC configuration mode
+  atm-l2trans-pvp-config          ATM L2transport PVP configuration mode
+  atm-pvc-range-config            ATM PVC Range configuration mode
+  atm-range-pvc-config            ATM PVC in Range configuration mode
+  atm-vc-config                   ATM virtual circuit configuration mode
+  auto-ip-sla-mpls                Auto IP SLA MPLS LSP Monitor configs
+  auto-ip-sla-mpls-lpd-params     Auto IP SLA MPLS LPD params configs
+  auto-ip-sla-mpls-params         Auto IP SLA MPLS LSP Monitor Params configs
+  bba-group                       BBA Group configuration mode
+  bgp address-family              Address Family configuration mode
+  boomerang                       Boomerang configuration mode
+  call-filter-matchlist           Call Filter matchlist configuration mode
+  call-home                       call-home config mode
+  call-home-profile               call-home profile config mode
+  call-router                     AnnexG configuration mode
+  cascustom                       Cas custom configuration mode
+  cause-code-list                 Voice Cause Code List configuration mode
+  cfg-af-topo                     Configure non-base topology mode
+  cm-ac                           AC-AC connect configuration mode
+  cm-fallback                     cm-fallback configuration mode
+  cns-connect-config              CNS Connect Info Mode
+  cns-connect-intf-config         CNS Connect Intf Info Mode
+  cns-tmpl-connect-config         CNS Template Connect Info Mode
+  cns_inventory_submode           CNS Inventory SubMode
+  codec-profile                   Codec Profile configuration mode
+  conf-attr-map                   LDAP attribute map config mode
+  conf-ldap-server                LDAP server config mode
+  conf-ldap-sg                    LDAP server group config mode
+  conf-rad-server                 RADIUS server config mode
+  conf-tac-server                 Tacacs Server Definition
+  config-l2tp-class               l2tp-class configuration mode
+  config-tgrep                    TRIP-Lite configuration mode
+  config_app_global               Configure global settings
+  config_app_map                  Configure application mapping
+  config_app_monitor              Configure application monitoring
+  config_app_session              Define script processes
+  config_voice                    Define application services, modules, groups
+  config_voice_app                Define application parameters
+  configure                       Global configuration mode
+  congestion                      Frame Relay congestion configuration mode
+  conn                            Connection configuration mode
+  control-class-map               control-classmap config mode
+  controller                      Controller configuration mode
+  cpf-classmap                    Class-map configuration mode
+  cpf-policyclass                 Class-in-Policy configuration mode
+  cpf-policymap                   Policy-map configuration mode
+  crypto-identity                 Crypto identity config mode
+  crypto-ipsec-profile            IPSec policy profile mode
+  crypto-keyring                  Crypto Keyring command mode
+  crypto-map                      Crypto map config mode
+  crypto-map-fail-close           Crypto map fail close mode
+  crypto-transform                Crypto transform config mode
+  dfp-submode                     DFP config mode
+  dhcp                            DHCP pool configuration mode
+  dhcp-class                      DHCP class configuration mode
+  dhcp-pool-class                 Per DHCP pool class configuration mode
+  dhcp-relay-info                 DHCP class relay agent info configuration
+                                  mode
+  dhcp-subnet-secondary           Per DHCP secondary subnet configuration mode
+  dns-view                        DNS View configuration mode
+  dns-view-list                   DNS View-list configuration mode
+  dns-view-list-member            DNS View-list member configuration mode
+  dspfarm                         DSP farm configuration mode
+  dspfarmprofile                  DSPFARM Profile configuration mode
+  dynupd-http                     Dynamic DNS update HTTP configuration mode
+  dynupd-method                   Dynamic DNS update method configuration mode
+  eigrp_af_classic_submode        Address Family configuration mode
+  eigrp_af_intf_submode           Address Family interfaces configuration mode
+  eigrp_af_submode                Address Family configuration mode
+  eigrp_af_topo_submode           Address Family Topology configuration mode
+  eigrp_sf_intf_submode           Service Family interfaces configuration mode
+  eigrp_sf_submode                Service Family configuration mode
+  eigrp_sf_topo_submode           Service Family Topology configuration mode
+  emergency-response-location     voice emergency response location
+                                  configuration mode
+  emergency-response-settings     voice emergency response settings
+                                  configuration mode
+  emergency-response-zone         voice emergency response zone configuration
+                                  mode
+  enum_rule                       enum configuration mode
+  ephone                          ephone configuration mode
+  ephone-dn                       ephone-dn configuration mode
+  ephone-dn-template              ephone-dn-template configuration mode
+  ephone-hunt                     ephone-hunt configuration mode
+  ephone-template                 ephone-template configuration mode
+  ephone-type                     ephone-type configuration mode
+  ether_cfm                       Ethernet CFM configuration mode
+  exec                            Exec mode
+  extcomm-list                    IP Extended community-list configuration mode
+  fh_applet                       FH Applet Entry Configuration
+  fh_applet_trigger               FH Applet Trigger Configuration
+  filterserver                    AAA filter server definitions
+  flow-cache                      Flow aggregation cache config mode
+  flow-sampler-map                Flow sampler map config mode
+  flowexp                         Flow Exporter configuration mode
+  flowmon                         Flow Monitor configuration mode
+  flowrec                         Flow Record configuration mode
+  fpm_enc_submode                 fpm match encryption filter config mode
+  fpm_group_definition            fpm package group definition mode
+  fpm_group_pak_definition        fpm package group package definition mode
+  fpm_package_submode             fpm package config mode
+  fr-fr                           FR/FR connection configuration mode
+  fr-pw                           FR/PW connection configuration mode
+  fr-vcb-bmode                    FR VC Bundle mode
+  fr-vcb-mmode                    FR VC Bundle Member mode
+  frf5                            FR/ATM Network IWF configuration mode
+  frf8                            FR/ATM Service IWF configuration mode
+  funi-vc-config                  FUNI virtual circuit configuration mode
+  gatekeeper                      Gatekeeper config mode
+  gateway                         Gateway configuration mode
+  gk_altgk_cluster                GK Commands for Cluster defn
+  gk_be_annexg                    GK Commands for H.323 AnnexG configuration
+  gk_srv_trigger_arq              GK Server ARQ Trigger config mode
+  gk_srv_trigger_brq              GK Server BRQ Trigger config mode
+  gk_srv_trigger_drq              GK Server DRQ Trigger config mode
+  gk_srv_trigger_irr              GK Server IRR Trigger config mode
+  gk_srv_trigger_lcf              GK Server LCF Trigger config mode
+  gk_srv_trigger_lrj              GK Server LRJ Trigger config mode
+  gk_srv_trigger_lrq              GK Server LRQ Trigger config mode
+  gk_srv_trigger_rai              GK Server RAI Trigger config mode
+  gk_srv_trigger_rrq              GK Server RRQ Trigger config mode
+  gk_srv_trigger_urq              GK Server URQ Trigger config mode
+  gw-accounting-aaa               Gateway accounting aaa configuration mode
+  gw-accounting-file              Gateway accounting file configuration mode
+  hostlist                        Host list configuration mode
+  identity-policy-mode            identity policy configuration mode
+  identity-profile-mode           identity profile configuration mode
+  if-topo                         Configure interface topology parameters
+  if-vnet                         Configure VNET interface parameters
+  interface                       Interface configuration mode
+  interface-dlci                  Frame Relay dlci configuration mode
+  ip-explicit-path                IP explicit path configuration mode
+  ip-sla                          IP SLAs entry configuration
+  ip-sla-am-grp                   IP SLAs auto group config
+  ip-sla-am-schedule              IP SLAs auto group schedule config
+  ip-sla-dhcp                     IP SLAs dhcp configuration
+  ip-sla-dns                      IP SLAs dns configuration
+  ip-sla-ethernet-echo            IP SLAs Ethernet Echo configuration
+  ip-sla-ethernet-jitter          IP SLAs Ethernet Jitter configuration
+  ip-sla-ethernet-monitor         IP SLAs Ethernet configs
+  ip-sla-ethernet-monitor-params  IP SLAs Ethernet Params configs
+  ip-sla-ftp                      IP SLAs ftp configuration
+  ip-sla-http                     IP SLAs http configuration
+  ip-sla-http-rr                  IP SLAs HTTP raw request Configuration
+  ip-sla-icmp-ech-params          IP SLAs icmpEcho Parameters
+  ip-sla-icmp-jtr-params          IP SLAs icmpJitter Parameters
+  ip-sla-icmpEcho                 IP SLAs icmpEcho configuration
+  ip-sla-icmpJitter               IP SLAs icmpJitter configuration
+  ip-sla-lspPing                  IP SLAs lsp ping configuration
+  ip-sla-lspTrace                 IP SLAs lsp trace configuration
+  ip-sla-pathEcho                 IP SLAs pathEcho configuration
+  ip-sla-pathJitter               IP SLAs pathJitter configuration
+  ip-sla-server-twamp             IPPM Server TWAMP submode
+  ip-sla-tcp                      IP SLAs tcpConnect configuration
+  ip-sla-tcp-conn-params          IP SLAs tcpConnect Parameters
+  ip-sla-tplt-dest                IP SLAs auto destination submode
+  ip-sla-tplt-dest-disc           IP SLAs auto dest-auto config
+  ip-sla-tplt-icmp-ech            IP SLAs auto template icmpEcho
+  ip-sla-tplt-icmp-jtr            IP SLAs auto template icmpJitter
+  ip-sla-tplt-tcp-conn            IP SLAs auto template tcpConnect
+  ip-sla-tplt-udp-ech             IP SLAs auto template udpEcho
+  ip-sla-tplt-udp-jtr             IP SLAs auto template udpJitter
+  ip-sla-twamp                    IP SLAs TWAMP configuration
+  ip-sla-udp-ech-params           IP SLAs udpEcho Parameters
+  ip-sla-udp-jtr-params           IP SLAs udpJitter Parameters
+  ip-sla-udpEcho                  IP SLAs udpEcho configuration
+  ip-sla-udpJitter                IP SLAs udpJitter configuration
+  ip-sla-vccv                     IP SLA vccv configuration
+  ip-sla-voip                     IP SLAs VoIP configuration
+  ip-sla-voip-rtp                 IP SLAs rtp configuration
+  ipc-zone-assoc-protocol-sctp    ipc protocol sctp mode
+  ipczone                         IPC Zone config mode
+  ipczone-assoc                   IPC Association config mode
+  ipenacl                         IP named extended access-list configuration
+                                  mode
+  ipsnacl                         IP named simple access-list configuration
+                                  mode
+  iptrust-list                    IP address trusted list config mode
+  ipv6-router                     IPv6 router configuration mode
+  ipv6acl                         IPv6 access-list configuration mode
+  ipv6dhcp                        IPv6 DHCP configuration mode
+  ipv6dhcpvs                      IPv6 DHCP Vendor-specific configuration mode
+  isakmp-profile                  Crypto ISAKMP profile command mode
+  kron-occurrence                 Kron Occurrence SubMode
+  kron-policy                     Kron Policy SubMode
+  l2                              vfi configuration mode
+  l3vpn                           l3vpn encap ip configuration mode
+  line                            Line configuration mode
+  lisp-site                       LISP site configuration mode
+  lisp-top                        LISP router configuration mode
+  lisp-top-site                   LISP site configuration mode
+  log_config                      Log configuration changes made via the CLI
+  lpcor-custom                    LPCOR custom configuration mode
+  lpcor-ipphone-subnet            LPCOR ipphone subnet table configuration mode
+  lpcor-iptrunk-subnet            LPCOR iptrunk subnet table configuration mode
+  lpcor-policy                    LPCOR policy configuration mode
+  lsp-attribute-list              LSP attribute list configuration mode
+  lw-vlan-id                      VLAN-id configuration mode
+  lw-vlan-range                   VLAN-range configuration mode
+  map-class                       Map class configuration mode
+  map-list                        Map list configuration mode
+  mgcpprofile                     MGCP Profile configuration mode
+  multicast-flows-classmap        multicast-classmap config mode
+  neighbor                        Neighbor configuration mode
+  network-object-group            ACL Object Group configuration
+  null-interface                  Null interface configuration mode
+  nxg-service-relationship        Service Relationship configuration mode
+  nxg-usage-indication            Usage Indication configuration mode
+  oam                             LSP Verification configuration mode
+  oer_mc                          PfR master controller configuration submode
+  oer_mc_api_provider             PfR MC API Provider configuration submode
+  oer_mc_br                       PfR managed border router configuration
+                                  submode
+  oer_mc_br_if                    PfR Border Exit configuration submode
+  oer_mc_learn                    PfR Top Talker and Delay learning
+                                  configuration submode
+  oer_mc_learn_list               PfR learn list configuration submode
+  oer_mc_map                      pfr-map config mode
+  parser_test                     Test mode for internal test purposes
+  pfr_br                          PfR border router configuration submode
+  policy-list                     IP Policy List configuration mode
+  preauth                         AAA Preauth definitions
+  profile                         Subscriber profile configuration mode
+  profile-map                     profile-map config mode
+  pseudowire-class                Pseudowire-class configuration mode
+  radius-attrl                    Radius Attribute-List Definition
+  radius-da-locsvr                Radius Application configuration
+  radius-locsvr-client            Radius Client configuration
+  radius-policy-device-locsvr     Radius Application configuration
+  radius-proxy-locsvr             Radius Application configuration
+  radius-sesm-locsvr              Radius Application configuration
+  redundancy                      redundancy config mode
+  regex-translation-rule          voip translation-rule configuration mode
+  request-dialin                  VPDN group request dialin configuration mode
+  request-dialout                 VPDN group request dialout configuration mode
+  rf-mode-interdev-local          ipc sctp local config mode
+  rf-mode-interdev-remote         ipc sctp remote config mode
+  rf-mode-interdevice             redundancy config mode
+  rib_rwatch_test                 RIB_RWATCH test configuration mode
+  rlm-group                       RLM Group configuration mode
+  rlm-group-sc                    RLM server/client link configuration mode
+  route-map                       Route map config mode
+  router                          Router configuration mode
+  router-af-topology              Topology configuration mode
+  router_eigrp_classic            EIGRP Router configuration classic mode
+  router_eigrp_named              EIGRP Router configuration named mode
+  rsvp-local-if-policy            RSVP local policy interface configuration
+                                  mode
+  rsvp-local-policy               RSVP local policy configuration mode
+  rsvp-local-subif-policy         RSVP local policy sub-interface configuration
+                                  mode
+  rule-map                        config-control-policymap config mode
+  rule-map-condition              config-control-policymap-class-control config
+                                  mode
+  saf_ec_cfg                      Saf external-clients configuration mode
+  saf_ec_client_cfg               Saf external-client configuration mode
+  sampler                         Sampler configuration mode
+  sccpccmgroup                    SCCP CCM group configuration mode
+  sccpplar                        SCCP PLAR configuration mode
+  scope                           scope configuration mode
+  scope address-family            Address Family configuration mode
+  scope address-family topology   Topology configuration mode
+  sctp-export                     SCTP export configuration commands
+  sep-init-config                 WSMA Initiator profile Mode
+  sep-listen-config               WSMA Listener profile Mode
+  service-object-group            ACL Object Group configuration
+  sf_client_reg_mode              service-family exec test mode
+  sg-radius                       Radius Server-group Definition
+  sg-tacacs+                      Tacacs+ Server-group Definition
+  sip-ua                          SIP UA configuration mode
+  slb-mode-dfp                    SLB DFP configuration mode
+  slb-mode-real                   SLB real server configuration mode
+  slb-mode-sfarm                  SLB server farm configuration mode
+  slb-mode-vserver                SLB virtual server configuration mode
+  source-group                    Voice Source Group configuration mode
+  srst-video                      cm-fallback video configuration mode
+  ssh-pubkey                      SSH public key identification mode
+  ssh-pubkey-server               SSH public key entry mode
+  ssh-pubkey-user                 SSH public key entry mode
+  subscriber-policy               Subscriber policy configuration mode
+  tcl                             Tcl mode
+  tdm-conn                        TDM connection configuration mode
+  telephony-service               telephony-service configuration mode
+  telephony-service-group         Telephony service group configuration mode
+  telephony-service-video         Telephony service video configuration mode
+  template                        Template configuration mode
+  template-peer-policy            peer-policy configuration mode
+  template-peer-session           peer-session configuration mode
+  top-af-base                     AF base topology configuration mode
+  top-talkers                     Netflow top talkers config mode
+  tracking-config                 Tracking configuration mode
+  translation-profile             Voice Translation Profile configuration mode
+  translation-rule                Translation Rule configuration mode
+  trunk-group                     Trunk group configuration mode
+  vc-class                        VC class configuration mode
+  vc-group                        VC group configuration mode
+  view                            View configuration mode
+  vm-integration                  voicemail integration configuration mode
+  voice-cause-code                Voice Cause Code configuration mode
+  voice-gateway                   voice gateway configuration mode
+  voice-mlpp                      voice mlpp configuration mode
+  voice-service                   Voice service configuration mode
+  voice-service-h323              Voice service h323 configuration mode
+  voice-service-session           Voice service session configuration mode
+  voice-service-sip               Voice service sip configuration mode
+  voice-service-stun              Voice service stun configuration mode
+  voice-uri-class                 Voice URI Class configuration mode
+  voicecl-cptone                  Voice Class CPTone configuration mode
+  voicecl-cptone-dt               CPtone dualtone configuration mode
+  voicecl-dt-detect               Voice Class Dualtone Detect configuration
+                                  mode
+  voiceclass                      Voice Class configuration mode
+  voicednismaps                   Dnis Map Configuration
+  voiceport                       Voice configuration mode
+  voipdialpeer                    Dial Peer configuration mode
+  voipdpcor                       Dial Peer Class of Restriction configuration
+                                  mode
+  voipdpcorlist                   Dial Peer Class of Restriction List
+                                  configuration mode
+  vpdn-group                      VPDN group configuration mode
+  vpdn-template                   VPDN template configuration mode
+  vpn-group                       Voice service vpn group configuration mode
+  vpn-profile                     Voice service vpn profile configuration mode
+  vrf                             Configure VRF parameters
+  vrf-af                          Configure IP VRF parameters
+  vrf-list                        Configure VRF list parameters
+  xconnect-cem-config             Xconnect cem CEM configuration submode
+  xconnect-cem-data-config        Xconnect cem DataCEM configuration data
+                                  submode
+  xconnect-cem-sig-config         Xconnect cem SigCEM configuration Sig submode
+  xconnect-conn-config            Xconnect connect configuration submode
+  xconnect-dlci-config            Xconnect FR DLCI configuration submode
+  xconnect-if-config              Xconnect interface configuration submode
+  xconnect-pvc-config             Xconnect atm l2transport PVC configuration
+                                  submode
+  xconnect-pvp-config             Xconnect atm l2transport PVP configuration
+                                  submode
+  xconnect-subif-config           Xconnect sub-interface configuration submode
+  xconnect-vc-config              Xconnect ether efp EFP configuration submode
+  xml-app                         XML Application configuration mode
+  xml-transport                   XML Transport configuration mode
