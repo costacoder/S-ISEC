@@ -1,0 +1,10 @@
+ip ssh time-out 60
+ip ssh version 2
+
+ip domain name seguranca.dmz
+
+line vty 0 4
+transport input ssh telnet
+
+
+crypto key generate rsa general-keys modulus 1024

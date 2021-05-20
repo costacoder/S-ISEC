@@ -1,0 +1,37 @@
+privilege interface level 15 shutdown
+privilege configure level 15 interface
+privilege exec level 15 configure terminal
+privilege exec level 15 configure
+privilege exec level 5 show ip interface
+privilege exec level 5 show ip
+privilege exec level 5 show
+
+
+
+
+username oper view permit-descritivo secret 5 $1$7T03$UqSltVo0aGsdaV9qi.BuH.
+username adm privilege 5 view deny-shutdown secret 5 $1$rI/S$sGyaTd85.qHdilQYsNVOJ1
+
+
+
+parser view deny-shutdown
+secret 5 $1$Qo4g$P.xfoxoFmBMU/pOxV9wv0.
+commands interface exclude shutdown
+commands exec include configure terminal
+commands exec include configure
+commands exec include all show ip interface
+commands exec include show ip
+commands exec include all show interfaces
+commands exec include show
+
+
+parser view permit-descritivo
+secret 5 $1$hHmt$WFhdKB44ov6uq0xzHGfHs0
+commands interface include description
+commands configure include interface
+commands exec include configure terminal
+commands exec include configure
+commands exec include show running-config
+commands exec include show interfaces
+commands exec include show
+commands configure include interface FastEthernet0/1
