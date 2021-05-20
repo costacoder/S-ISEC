@@ -32,6 +32,16 @@ commands configure include interface
 commands exec include configure terminal
 commands exec include configure
 commands exec include show running-config
-commands exec include show interfaces
-commands exec include show
 commands configure include interface FastEthernet0/1
+
+
+
+
+
+
+parser view deny-shutdown
+secret 5 $1$Qo4g$P.xfoxoFmBMU/pOxV9wv0.
+commands interface exclude shutdown
+commands configure include all interface
+commands exec include configure terminal
+commands exec include configure
