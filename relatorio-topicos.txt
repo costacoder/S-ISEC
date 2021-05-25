@@ -1,0 +1,19 @@
+Configuração das firewalls
+Explicar o porque do uso das firewalls neste lugares e mostra alguns dos comandos utilizados
+    -> timebased = Docente1 e Externos1
+    -> cbac -> Docente1 (não é aceite no 2600)
+    -> reflexive -> Externos1
+    -> ZBF -> Core-Serviços -> criadas 2 zonas F0/0 e F0/1
+    -> Extended -> Aplicada no core-serviços para o radius, wan entrada soofing
+    -> dynamic -> HA UM PONTO QUE DEVE SER EXPLICADO. O DYNAMIC DEVIA SER FEITO NO CORE-SERVICOS MAS COMO FOI APLICADO O ZBF POR
+    ACONCELHAMENTO DO PROFESSOR, E NÃO PODEM HAVER A JUNÇÃO DO ZBF COM A DYNAMIC, DECIDIMOS APLICAR NA WAN. EXPLICAR INSTO MUITO BEM POR FAVOR.
+    -> standard -> aplicada na f0/0-out para soofing para a internet
+Configuração de logging
+    -> explicar todo o mecanismo de log, comandos, imagens do syslog, imagens do syslog
+Configuração da autenticação
+    -> mostrar comandos do Radius
+    -> aaa 
+    -> mostrar imagens explicar em que consiste o radius e a auntenticação do mesmo. 
+Configuração do NAT
+    -> explicar e mostra comando do nat aplicado no externo1 e no docente. 
+    -> explicar com que ip sai
